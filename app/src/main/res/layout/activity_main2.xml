@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:backgroundTint="#031e37"
+
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+<ScrollView
+    android:id="@+id/scr"
+android:layout_width="410dp"
+android:layout_height="685dp"
+android:background="@color/white"
+    android:backgroundTint="#031e37"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="0.0"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent"
+app:layout_constraintVertical_bias="0.0">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/t1"
+        android:textSize="40dp"
+        android:visibility="invisible"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:visibility="invisible"
+
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:text="TextView" />
+
+
+
+    <TextView
+        android:id="@+id/t3"
+        android:textSize="40dp"
+        android:visibility="invisible"
+
+
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:visibility="invisible"
+
+
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:text="TextView" />
+
+
+
+
+    <TextView
+        android:id="@+id/t5"
+        android:textSize="40dp"
+        android:clickable="true"
+
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t7"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:clickable="true"
+
+        android:visibility="invisible"
+
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:visibility="invisible"
+
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t9"
+        android:textSize="40dp"
+        android:clickable="true"
+
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:visibility="invisible"
+
+        android:layout_marginBottom="20dp"
+
+        android:textSize="20dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t11"
+        android:textSize="40dp"
+        android:clickable="true"
+
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+
+        android:textColor="@color/white"
+        android:layout_marginBottom="20dp"
+
+        android:textSize="20dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t13"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:visibility="invisible"
+        android:clickable="true"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t14"
+        android:visibility="invisible"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t15"
+        android:textSize="40dp"
+        android:visibility="invisible"
+        android:clickable="true"
+
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t16"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t17"
+        android:textSize="40dp"
+        android:visibility="invisible"
+        android:clickable="true"
+
+
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t18"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t19"
+        android:textSize="40dp"
+        android:visibility="invisible"
+        android:clickable="true"
+
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t20"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:clickable="true"
+
+        android:layout_marginBottom="20dp"
+
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t21"
+        android:textSize="40dp"
+        android:visibility="invisible"
+
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t22"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:clickable="true"
+
+
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:text="TextView" />
+
+
+    <TextView
+        android:id="@+id/t23"
+        android:textSize="40dp"
+        android:visibility="invisible"
+
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t24"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:clickable="true"
+
+
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:text="TextView" />
+
+
+    <TextView
+        android:id="@+id/t25"
+        android:textSize="40dp"
+        android:visibility="invisible"
+
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t26"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:clickable="true"
+
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t27"
+        android:textSize="40dp"
+        android:visibility="invisible"
+
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t28"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:clickable="true"
+
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:text="TextView" />
+
+
+    <TextView
+        android:id="@+id/t29"
+        android:textSize="40dp"
+        android:visibility="invisible"
+
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t30"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:clickable="true"
+
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:text="TextView" />
+
+
+    <TextView
+        android:id="@+id/t31"
+        android:textSize="40dp"
+        android:visibility="invisible"
+
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t32"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:clickable="true"
+
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:text="TextView" />
+
+
+    <TextView
+        android:id="@+id/t33"
+        android:textSize="40dp"
+        android:visibility="invisible"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t34"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:clickable="true"
+
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:text="TextView" />
+
+
+    <TextView
+        android:id="@+id/t35"
+        android:textSize="40dp"
+        android:visibility="invisible"
+
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t36"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:clickable="true"
+
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:text="TextView" />
+
+
+    <TextView
+        android:id="@+id/t37"
+        android:textSize="40dp"
+        android:visibility="invisible"
+
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t38"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:clickable="true"
+
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:text="TextView" />
+
+
+    <TextView
+        android:id="@+id/t39"
+        android:textSize="40dp"
+        android:visibility="invisible"
+
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t40"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:clickable="true"
+
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:text="TextView" />
+
+
+    <TextView
+        android:id="@+id/t41"
+        android:textSize="40dp"
+        android:visibility="invisible"
+
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t42"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:clickable="true"
+
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:text="TextView" />
+
+
+    <TextView
+        android:id="@+id/t43"
+        android:textSize="40dp"
+        android:visibility="invisible"
+
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t44"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:clickable="true"
+
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:text="TextView" />
+
+
+    <TextView
+        android:id="@+id/t45"
+        android:textSize="40dp"
+        android:visibility="invisible"
+
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t46"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:clickable="true"
+
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t47"
+        android:textSize="40dp"
+        android:visibility="invisible"
+
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t48"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:clickable="true"
+
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:text="TextView" />
+
+
+    <TextView
+        android:id="@+id/t49"
+        android:textSize="40dp"
+        android:visibility="invisible"
+
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t50"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:clickable="true"
+
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t51"
+        android:textSize="40dp"
+        android:visibility="invisible"
+
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t52"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:clickable="true"
+
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t53"
+        android:textSize="40dp"
+        android:visibility="invisible"
+
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t54"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:clickable="true"
+
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:text="TextView" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+</ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
